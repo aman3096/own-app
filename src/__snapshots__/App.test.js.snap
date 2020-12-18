@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should take a snapshot of  1`] = `
+<DocumentFragment>
+  <nav
+    class="sc-gsTCUz kaNQOD"
+  >
+    <button
+      class="sc-bdfBwQ kqdBOk"
+      data-testid="mainButton"
+    >
+      Log in
+    </button>
+  </nav>
+</DocumentFragment>
+`;
+
+exports[`should take a snapshot of App 1`] = `
+<DocumentFragment>
+  <div>
+    <nav
+      class="sc-gsTCUz kaNQOD"
+    >
+      <button
+        class="sc-bdfBwQ kqdBOk"
+        data-testid="mainButton"
+      >
+        Log in
+      </button>
+    </nav>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`should take a snapshot of Navbar 1`] = `
+<DocumentFragment>
+  <nav
+    class="sc-gsTCUz kaNQOD"
+  >
+    <button
+      class="sc-bdfBwQ kqdBOk"
+      data-testid="mainButton"
+    >
+      Log in
+    </button>
+  </nav>
+</DocumentFragment>
+`;
+
+exports[`should take a snapshot of Navbar 2`] = `
+<DocumentFragment>
+  <nav
+    class="sc-gsTCUz kaNQOD"
+  >
+    <button
+      class="sc-bdfBwQ kqdBOk"
+      data-testid="mainButton"
+    >
+      Log in
+    </button>
+  </nav>
+</DocumentFragment>
+`;
+
+exports[`should take a snapshot of Profile 1`] = `<DocumentFragment />`;
