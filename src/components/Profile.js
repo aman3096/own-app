@@ -4,13 +4,14 @@ import {ProfileBox, Image, P} from './Styles';
 
 const Profile = () => {
   const {user, isAuthenticated} = useAuth0()
-  
+
  return(
   isAuthenticated && (<ProfileBox> 
     <Image src={user.picture} alt={user.name}/>
     <P>Name: {user.name}</P>
     <P>Username: {user.nickname}</P>
     <P>Email: {user.email}</P>
+    <P>Department: Generic user department</P>
    </ProfileBox>)
  )
 }
